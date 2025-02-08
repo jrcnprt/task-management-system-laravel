@@ -46,6 +46,11 @@ DB_PASSWORD=
 php artisan migrate
 ```
 
+### Run Composer install
+```
+composer install
+```
+
 ### Start the Laravel Server
 ```
 php artisan serve
