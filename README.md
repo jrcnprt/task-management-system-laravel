@@ -26,6 +26,11 @@ extract the zip file
 cd task-management-system
 ```
 
+### Run Composer install
+```
+composer install
+```
+
 ### Set Up Environment
 Copy the `.env.example` file and update the database credentials:
 ```
@@ -46,10 +51,6 @@ DB_PASSWORD=
 php artisan migrate
 ```
 
-### Run Composer install
-```
-composer install
-```
 
 ### Start the Laravel Server
 ```
